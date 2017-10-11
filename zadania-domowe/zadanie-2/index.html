@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>formularz</title>
 </head>
+
 <body>
     <form action="https://formspree.io/anetapierowicz@gmail.com" method="post">
         <label for="imie">Imię:</label>
         <input type="text" name="imie" id="imie">
-        
+
         <label for="nazwisko">Nazwisko:</label>
         <input type="text" name="nazwisko" id="nazwisko">
-        
+
         <label for="email">E-mail:</label>
         <input type="text" name="email" id="email">
-        
+
         <label for="tel">Numer telefonu:</label>
-        <input type="text" id="numertelefonu">
-        
-        <label for="miasto">Miasto:</label>
-        <select id="miasto">
+        <input type="text" id="tel">
+
+        <label for="miasto">Miasto:</label><select id="miasto">
             <option value="Krakow">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdansk">Gdańsk</option>
         </select>
-        
-        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
-        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
-        
-        <input type="checkbox" name="agreement" id="agreement"><label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych przez Akademia 108</label>
-        
+
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Mężczyzna</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta</label>
+
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych przez Akademia 108</label>
+
         <label for="message">Wiadomość:</label>
         <textarea name="wiadomosc" id="message" cols="5" rows="2"></textarea>
-        
-        <input type="submit" id="submit"><label for="submit">Wyślij</label>
+
+        <input type="submit" id="submit">
+        <label for="submit">Wyślij</label>
     </form>
 </body>
+
 </html>
