@@ -1,0 +1,28 @@
+@media all and (min-width: 1170px) {
+    #main-header {
+        background: url('../obrazy/man-1.jpg') no-repeat;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    #main-header {
+        background: url('../obrazy/man-2.jpg') no-repeat;
+        height: 70vh;
+    }
+    #main-header .header-inner {
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #main-header {
+        background: url('../obrazy/man-1.jpg') no-repeat;
+        height: 50vh;
+    }
+    #main-header .header-inner {
+        text-align: center;
+        bottom: 10%;
+        position: absolute;
+        padding: 0% 15%;
+    }
+}
