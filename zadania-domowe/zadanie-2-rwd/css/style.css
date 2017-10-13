@@ -8,13 +8,14 @@ body {
 }
 
 #main-header {
-    background: url('../obrazy/man-1.jpg') no-repeat;
+    background: url('../obrazy/man-1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: auto;
     margin: 0;
-    border: no boreder;
+    border: no border;
+    background-repeat: no-repeat;
 }
 
 #main-header .header-inner {
@@ -25,9 +26,9 @@ body {
 }
 
 #main-header .header-inner h1 {
-    font-size: 30px;
+    font-size: 1,5em;
 }
 
 #main-header .header-inner h2{
-    font-size: 50px;
+    font-size: 2,5em;
 }
