@@ -1,0 +1,9 @@
+div.container-example {
+    background-color: red;
+    height: 400px;
+}
+
+div.container-fluid-example {
+    background-color: blue;
+    height: 400px;
+}
