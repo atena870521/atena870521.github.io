@@ -66,7 +66,7 @@ function pobierzDane() {
             var jsonObj = JSON.parse(response);
             console.log(jsonObj);
 
-            document.getElementById("dane-programisty").innerHTML = jsonObj.imie + <br> + jsonObj.nazwisko + <br> + jsonObj.zawod + <br> + jsonObj.firma;
+            document.getElementById("dane-programisty").innerHTML = jsonObj.imie + '<br>' + jsonObj.nazwisko + '<br>' + jsonObj.zawod + '<br>' + jsonObj.firma;
 
         }
     });
