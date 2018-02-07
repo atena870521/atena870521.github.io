@@ -1,0 +1,45 @@
+/*
+@media all and (max-width: 1200px) { 
+    
+}
+
+@media all and (max-width: 992px) {
+    #menu .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+    }
+    
+    #menu > ul > li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 768px) {
+    section {
+        padding: 0 40px 50px;
+}
+
+@media all and (max-width: 576px) {
+    section {
+        padding: 0 10px 30px;
+    }
+}
+*/
