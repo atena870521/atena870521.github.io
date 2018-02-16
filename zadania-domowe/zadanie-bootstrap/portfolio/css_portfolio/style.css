@@ -6,9 +6,12 @@ body {
 }
 
 section {
-    padding: 0 80px 100px;
+    padding: 80px 80px 100px;
 }
 
+section h2 {
+    padding-bottom: 30px;
+}
 /*nawigcja*/
 
 /*
@@ -117,6 +120,7 @@ section {
 
 #skills {
     background-color: #fff;
+    padding-bottom: 50px;
 }
 
 /*#skills > h2 {*/
@@ -127,6 +131,9 @@ section {
     color: #1ac056;
 }
 
+#skills figure {
+    padding: 50px 50px 0;
+}
 /*#skills p {*/
 /*
     text-align: center;
@@ -196,6 +203,8 @@ section {
     transition: all 0.3s ease-in-out;
     position: absolute;
     font-size: initial;
+    left: 0;
+    right: 0;
 }
 
 #portfolio .portfolio-items .portfolio-item .item-mask:hover {
@@ -277,14 +286,13 @@ section {
     background-color: #fff;
 }
 
-#contact .contact-form {
-    width: 50%;
-    float: left;
+#contact form {
+    width: 100%;
     margin-top: 100px;
 }
 
-#contact .contact-form form input,
-#contact .contact-form form textarea {
+#contact form input,
+#contact form textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
@@ -293,23 +301,23 @@ section {
     color: #fff;
 }
 
-#contact .contact-form form input:focus,
-#contact .contact-form form textarea:focus {
+#contact form input:focus,
+#contact form textarea:focus {
     background-color: #426684;
 }
 
-#contact .contact-form form input[type='submit'] {
+#contact form input[type='submit'] {
     background-color: #1ac056;
     color: #fff;
     width: auto;
-    text-transform: uppercase;
-    font-weight: 600;
+    text-transform: uppercase bold;
+    font-weight: 300;
     padding: 15px 30px;
     float: right;
     border: 1px #1ac056 solid;
 }
 
-#contact .contact-form form input[type='submit']:hover {
+#contact form input[type='submit']:hover {
     background-color: #fff;
     color: #1ac056;
 }
